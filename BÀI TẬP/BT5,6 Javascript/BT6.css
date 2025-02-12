@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(131, 170, 239);
+  }
+  
+  .menu{
+    width: 450px;
+    height: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 0, 100);
+    border-radius: 10px;
+  }
+  
+  .menu ul{
+    width: 400px;
+    display: flex;
+    position: relative;
+  }
+  
+  .menu ul li{
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .menu ul li a{
+    color: rgb(255, 255, 255);
+    padding-top: 25%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .menu ul li a i.icon{
+    font-size: 20px;
+    position: relative;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .menu ul li.active a i.icon{
+    transform: rotateY(-8px);
+    color: rgb(255, 255, 6);
+  }
+  
+  .menu ul li a .text{
+    padding-top: 5px;
+    position: absolute;
+    font-weight: 400;
+    color: rgb(7, 0, 100);
+    transition: 0.5;
+    transform: translateY(22px);
+  }
+  
+  
+  .menu ul li.active a .text{
+    opacity: 1;
+    color: rgb(0, 0, 0);
+  }
+  
+  .idicator{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+  
+  .idicator::before{
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 25px;
+    bottom: 12px;
+    background-color: rgb(255, 255, 6) ;
+    border-radius: 20px;
+  }
+  
+  .idicator::after{
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    top: 0px;
+    background-color: rgb(255, 255, 6);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgb(255, 255, 6), 
+                50px 50px rgb(255, 255, 6),
+                0 50px rgb(255, 255, 6),
+                50px 0px rgb(255, 255, 6);
+    transform: rotate(45deg);
+    animation: animate 4s ease-in-out infinite;
+  }
+  
+  @keyframes animate{
+    0%,100%{
+      transform: rotate(35deg);
+    }
+    55%{
+      transform: rotate(55deg);
+    }
+  }
+  
+  .menu ul li:nth-child(2).active ~ .idicator{
+    transform: translateX(calc(80px*1));
+  }
+  .menu ul li:nth-child(3).active ~ .idicator{
+    transform: translateX(calc(80px*2));
+  }
+  .menu ul li:nth-child(4).active ~ .idicator{
+    transform: translateX(calc(80px*3));
+  }
+  .menu ul li:nth-child(5).active ~ .idicator{
+    transform: translateX(calc(80px*4));
+  }

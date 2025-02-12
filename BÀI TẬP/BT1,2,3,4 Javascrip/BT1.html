@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        #content{
+            border: 1px solid black;
+            padding: 40px;
+            width: 250px;
+            height: 50px;
+            margin: auto;
+            color: red;
+            background-color: lightgray;
+            overflow: hidden; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #btn1, #btn2{
+            color: brown;
+            border: 1px solid #555;
+            border-radius: 5px;
+        }
+        .button {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id = "content">
+    </div>
+    <div class="button">
+        <input type="button" id="btn1" value="Set-Text" onclick="setText()">
+        <input type="button" id="btn2" value="Set-Color" onclick="setColor()">
+    </div>
+    <script type="text/javascript">
+        let div = document.querySelector("#content");
+        // ham set text
+        function setText(){
+            div.innerHTML = "Nguyễn Hiểu Quyên";
+        }
+        // ham set color
+        function setColor(){
+            div.style.color = "red";
+            div.style.background ="#56ff00";
+        }
+    </script>
+</body>
+</html>

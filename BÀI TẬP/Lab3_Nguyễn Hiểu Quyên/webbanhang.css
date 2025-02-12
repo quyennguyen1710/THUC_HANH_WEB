@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo3 {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.fa-solid{
+    transform: rotateY(180deg);
+}
+.home {
+    border-bottom: 1px solid black;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.menu li {
+    padding-inline: 20px;
+}
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* code css for banner */
+.banner{
+    width: 90%;
+    height: 700px;
+    background: url(./images_lab3/images/banner.jpg) no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner h4{
+    font-family: "Mail", cursive;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 40px;
+}
+.banner p{
+    font-family: "Mail", cursive;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 30px;
+}
+/* product */
+.product{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 30px;
+    margin: 30px;
+    text-align: center;
+    width: 90%;
+    font-size: 15px;
+}
+.product img{
+    width: 100%;
+    height: 300px;
+    padding-block: 10px;
+}
+/* code slide images */
+.slide-img{
+    height: 400px;
+    background: url(./images_lab3/images/pic4.png) no-repeat left bottom,
+                url(images_lab3/images/pic6.png) no-repeat right top;
+    background-color: #eee;
+    background-size: 300px 300px;
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    width: 90%;
+}
+.slide-img-text{
+    font-size: 30px;
+    margin: 10px;
+}
+.fa-thin{
+    font-size: 50px;
+    color: gray;
+}
+/* Featured */
+.Featured{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 30px;
+    margin: 30px;
+    text-align: center;
+    width: 90%;
+    position: relative;
+    font-size: 15px;
+}
+.Featured img{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 10px;
+}
+.Featured_Items{
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 10px;
+}
+.NEW{
+    border: 1px solid black;   
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute; 
+    top: 20px;
+    left: 10px;
+}
+.SOLD{
+    position: absolute;
+    top: 20px;
+    right: 140px;
+    border: 1px solid black;   
+    padding: 5px;
+    border-radius: 5px;
+}
+.chu_hinh{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.chu{
+    text-align: center;
+    font-size: 17px;
+    padding-left: 30px;
+}
+.Doan_1{
+    padding-top: 70px;
+    font-family: "Fondamento", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.Doan_2{
+    padding-top: 30px;
+}
+.Doan_3{
+    padding-top: 20px;
+}
+.sara{
+    width: 180px;
+    margin-right: 150px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: #eee;
+    text-align: left;
+    padding-block: 30px;
+    margin-bottom: 90px;
+    color: gray;
+}
+h3{
+    padding-bottom: 10px;
+    color: black;
+}
+.footer li{
+    padding-bottom: 5px;
+}

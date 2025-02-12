@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tính toán</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="BT3.css">
+    <script src="BT3.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Form tính toán</h2>
+        <form>
+            <p>
+                <span class="lable"><b>Nhập a:</b></span>
+                <input type="text" class="value" id="a">
+            </p>
+            <p>
+                <span class="lable"><b>Nhập b:</b></span>
+                <input type="text" class="value" id="b">
+            </p>
+            <p>
+                <span class="lable"><b>Kết quả:</b></span>
+                <input type="text" class="value" id="kq" readonly>
+            </p>
+                <button class="btn" type="button" onclick="Sum()">+</button>
+                <button class="btn" type="button" onclick="Signal()">-</button>
+                <button class="btn" type="button" onclick="Multiply()">*</button>
+                <button class="btn" type="button" onclick="Divide()">/</button>
+                <button class="btn" type="button" onclick="Reset()">RESET</button>
+                <p id="log"></p>
+        </form>
+    </div>
+</body>
+</html>

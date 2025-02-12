@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: url(./images/background.png) !important;
+}
+
+/* Chỉnh carosel */
+.Carousel{
+    position: relative !important;
+}
+
+.fa-chevron-right{
+    position: absolute !important;
+    right: 3% !important;
+    top: 50% !important;
+    font-size: 30px;
+    z-index: 1 !important;
+}
+  
+.fa-chevron-left{
+    position: absolute !important;
+    left: 3% !important;
+    top: 50% !important;
+    font-size: 30px;
+    z-index: 2 !important;
+}
+
+.specials{
+    background-color: rgba(248,203,173,255) !important;
+    color: red !important;
+}
+.swiper-slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+.special-item img {
+    width: 100%;
+    height: auto;
+}
+.card-title{
+    font-size:  rgba(211,132,106,255);
+}
+/* footer */
+.phancuoi{
+    background-color: rgba(197,89,17,255) !important;
+}

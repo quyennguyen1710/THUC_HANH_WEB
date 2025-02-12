@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM ĐĂNG KÝ</title>
+    <link rel="stylesheet" href="BT2.css">
+    <script src="./BT1.js"></script>
+</head>
+<body>
+    <div class="container" id="dk">
+        <h2>FORM ĐĂNG KÝ</h2> 
+        <div class="form">
+            <div class="input__wrap__sub input__wrap" id="wrap1">
+                <input type="text" placeholder="Tên đăng nhập" id="tdn" onkeyup="checkuser()">
+            </div>
+            <div class="input__wrap__sub input__wrap" id="wrap2">
+                <input type="email" placeholder="Email" id="tk" onkeyup="checkemail()">
+            </div>
+            <div class="input__wrap__sub input__wrap" id="wrap3">
+                <input type="password" placeholder="Mật khẩu" id="mk" onkeyup="checkPassword()">
+            </div>
+            <div class="input__wrap__sub input__wrap" id="wrap4">
+                <input type="password" placeholder="Nhập lại mật khẩu" id="rmk" onkeyup="checkPassword2()">
+            </div>
+            <div class="btn">
+                <button class="btn1" onclick="dangky()">Đăng ký</button>
+                <button class="btn2" onclick="xoa()">Reset</button>
+            </div>
+            <div id="showMessage" class="sh1"></div>
+        </div>
+    </div>
+</body>
+</html>

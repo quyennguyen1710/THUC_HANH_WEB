@@ -1,0 +1,172 @@
+ *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+ }
+
+ body{
+    background-color: rgba(226,232,240,255) !important;
+  }
+
+ header{
+    background-color: rgba(110,148,127,255) !important;
+ }
+  
+  a{
+    text-decoration: none !important;
+    color: white !important;
+  }
+
+/* Chỉnh carousel */
+.review-item img{
+    height: 300px !important;
+    border-radius: 5% !important;
+}
+
+.slide anh{
+    position: relative !important;
+}
+
+.fa-angle-left{
+    position: absolute !important;
+    left: 3% !important;
+    top: 45% !important;
+    font-size: 30px !important;
+}
+
+.fa-angle-right{
+    position: absolute  !important;
+    right: 3% !important;
+    top: 45% !important;
+    font-size: 30px !important;
+}
+
+/* thanh header của main */
+.nav-link:hover{
+    color: red !important;
+}
+.nav-link:focus{
+    color: red !important;
+}
+
+/* Giới thiệu sản phẩm */
+.gia-tot{
+    width: fit-content !important;
+    background-color: rgba(110,148,127,255) !important;
+    border-radius: 20px !important;
+}
+
+.card{
+    position: relative !important;
+    background-color: rgba(226,232,240,255) !important;
+    border-radius: 15px !important;
+  }
+  
+  .btn-tragop{
+    background-color: rgb(243, 121, 121) !important;
+  }
+  
+  .gia-cu{
+    color: gray !important;;
+  }
+  
+  .discount{
+    position: absolute !important;
+    background-color: rgb(199, 59, 83) !important;
+    border-top-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    width: fit-content !important;
+    top: 0 !important;
+  }
+  
+  .react{
+    position: absolute !important;
+    top: 25% !important;
+    left: 13% !important;
+  }
+  
+  .react li{
+    margin: 5px !important;
+    padding: 3px !important;
+    border-radius: 15% !important;
+  }
+  
+  .card:hover .react{
+    display: block !important;
+    display: flex !important;
+  }
+  
+  .card:hover .card-img-top{
+    opacity: 0.3;  
+    filter: alpha(opacity=100);
+  }
+  
+  /* Chỉnh footer */
+  .ft-color{
+    color: rgb(160, 158, 158) !important;
+  }
+  
+  .fa-chevron-up{
+    font-size: 30px !important;
+  }
+  
+  .btn-arrow{
+    width: 50px !important;
+    height: 50px !important;
+    display: flex !important;
+    justify-content: center!important;
+    align-items: center !important;
+    border-radius: 50% !important;
+  }
+  
+  /* Chỉnh model */
+  .btn-dathang{
+    background-color: rgb(50, 50, 253) !important;
+  }
+  
+  .sanpham{
+    position: relative !important;
+  }
+  
+  .model{
+    width: fit-content !important;
+  }
+  
+  .model-tu{
+    position: absolute !important;
+    left: 30% !important;
+    z-index: 1;
+    height: auto !important;
+    background-color: rgba(201,215,208,255) !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+    display: none;
+    margin-top: 50px !important;
+  }
+  
+  .model-ban{
+    position: absolute !important;
+    right: 0% !important;
+    z-index: 1;
+    height: 350px !important;
+    background-color: rgba(201,215,208,255) !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+    display: none;
+    margin-top: 50px !important;
+  }
+  
+  .model-ban-an{
+    width: fit-content !important;
+    height: 350px !important;
+    background-color: rgba(201,215,208,255) !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+    display: none;
+    margin-top: 50px !important;
+  }
+  
+  .model-den-ngu{
+    height: 350px !important;
+    background-color: rgba(201,215,208,255) !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+    display: none;
+    margin-top: 50px !important;
+  }

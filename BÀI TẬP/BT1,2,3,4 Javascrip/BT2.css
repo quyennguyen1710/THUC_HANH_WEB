@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+}
+.container{
+    width: 450px;
+    min-height: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: wheat;
+    position: relative;
+    font-size: 20px;
+    border-radius: 15px;
+}
+h3{
+    border-radius: 15px;
+    color: red;
+    position: absolute;
+    top: -27px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: wheat;
+}
+label{
+    width: 100%;
+    line-height: 40px;
+}
+input[type="text"], input[type="password"]{
+    width: 100%;
+    padding: 7px 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+input[type="submit"]{
+    padding: 5px 15px;
+    background-color: rgb(18, 239, 18);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.shop{
+    border-bottom: 1px solid black;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.menu li{
+    padding-inline: 15px;
+}
+.fa-thin{
+    transform: rotateY(180deg);
+    padding-top: 20px;
+    font-size: 20px !important;
+}
+.Cart{
+    padding-top: 10px;
+    display: flex;
+}
+.Cart img{
+    width: 30px;
+    height: 30px;
+}
+.Cart p{
+    padding-top: 10px;
+}
+.dong1{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+    padding-right: 86%;
+}
+.dong2{
+    font-size: 11px;
+    padding-bottom: 50px;
+    font-family: "Quicksand", sans-serif;
+    padding-right: 77%;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.chinhgiua{
+    width: 90%;
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-block: 10px;
+}
+.daux{
+    display: flex;
+}
+.daux i{
+    font-size: 20px;
+    margin-top: 50%;
+}
+.chinhgiua p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 70px;
+}
+.hoax{
+    width: 400px;
+    font-size: 20px;
+    padding-left: 200px;
+    padding-top: 50px;
+  }
+  
+  form{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nut_lr{
+    padding-top: 5px;
+    padding-inline: 5px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .cot1{
+    display: flex;
+    padding: 13px;
+    justify-content: space-around;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .gia1{
+    padding-left: 220px;
+  }
+  .gia2{
+    padding-left: 130px;
+  }
+  .mavoucher{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-block: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .voucher{
+    width: 30%;
+    background-color: black;
+  }
+  .voucher td{
+    padding: 10px;
+    width: 50%;
+    background-color: white;
+  }
+  .apply{
+    color: white;
+    text-align: center;
+    background-color: black!important;
+  }
+  .checkout{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: red;
+    width: 150px;
+    text-align: center;
+    color: white;
+  }
+/* Featured */
+.Featured{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 30px;
+    margin: 30px;
+    text-align: center;
+    width: 90%;
+    position: relative;
+    font-size: 15px;
+}
+.Featured img{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 10px;
+}
+.Featured_Items{
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* the end */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: #eee;
+    text-align: left;
+    padding-block: 30px;
+    margin-bottom: 90px;
+    color: gray;
+    font-family: "Quicksand", sans-serif;
+}
+h3{
+    padding-bottom: 10px;
+    color: black;
+}
+.footer li{
+    padding-bottom: 5px;
+}

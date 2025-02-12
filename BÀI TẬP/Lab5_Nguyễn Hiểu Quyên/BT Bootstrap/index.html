@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Owl Carosel</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css" />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./main.css">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Link owl carosel css -->
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.green.min.css">
+  </head>
+
+  <body>
+    <div class="container-fluid bg-light bg-icon py-5 mb-1">
+      <div class="container">
+        <div class="section-header text-center mx-auto mb-5" style="max-width: 500px;">
+            <h1 class="mb-5">Customer Review</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat deserunt blanditiis beatea?</p>
+        </div>
+      </div>
+
+      <div class="owl-carousel review-carosle">
+        <div class="review-item p-5 mt-5 bg-white position-relative">
+          <i class="fa-solid fa-quote-left fa-3x text-primary position-absolute top-0 start-0 ms-5 mt-n4"></i>
+          <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus architecto necessitatibus aliquam possimus odit cum officia voluptas corporis placeat recusandae error velit ad laboriosam similique sapiente doloribus, maxime odio.</p>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle flex-shrink-0" src="./anh1.jpg" alt="">
+            <div class="ms-1">
+              <h3 class="mb-1">Kim Seokjin</h3>
+              <span>Korea</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-item p-5 mt-5 bg-white position-relative">
+          <i class="fa-solid fa-quote-left fa-3x text-primary position-absolute top-0 start-0 ms-5 mt-n4"></i>
+          <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatem aliquam eos. Rerum provident sequi, reiciendis minima reprehenderit officiis dolores perferendis magni aliquam blanditiis ipsum et officia maxime debitis quos.</p>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle flex-shrink-0" src="./anh2.jpg" alt="">
+            <div class="ms-1">
+              <h3 class="mb-1">Hamabe Minami</h3>
+              <span>Japan</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-item p-5 mt-5 bg-white position-relative">
+          <i class="fa-solid fa-quote-left fa-3x text-primary position-absolute top-0 start-0 ms-5 mt-n4"></i>
+          <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, veritatis dignissimos! Animi iure nobis, sequi voluptatum repudiandae similique deleniti iusto voluptates, magnam id commodi maxime, corporis maiores eveniet illum. Magnam! </p>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle flex-shrink-0" src="./anh3.jpg" alt="">
+            <div class="ms-1">
+              <h3 class="mb-1">Triệu Lệ Dĩnh</h3>
+              <span>China</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-item p-5 mt-5 bg-white position-relative">
+          <i class="fa-solid fa-quote-left fa-3x text-primary position-absolute top-0 start-0 ms-5 mt-n4"></i>
+          <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium praesentium debitis consectetur perferendis dolor architecto incidunt, itaque ex quisquam, rem beatae perspiciatis mollitia, tenetur hic libero ab? In, et numquam.</p>
+          <div class="d-flex align-items-center">
+            <img class="rounded-circle flex-shrink-0" src="./anh4.jpg" alt="">
+            <div class="ms-1">
+              <h3 class="mb-1">Fei Qi Ming</h3>
+              <span>China</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link carosel js -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+        autoplay: true,
+        smartSpeed: 500,
+        loop: true,
+        margin: 25,
+        center: true,
+        dots:false,
+        nav: true,
+        navText:[
+          '<i class="fa-solid fa-chevron-left"></i>',
+          '<i class="fa-solid fa-chevron-right"></i>'
+        ],
+        responsive:{
+          0:{items:1},
+          768:{items:2},
+          992:{items:3}
+        }
+      })
+    })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    width: 90%;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.menu a{
+    color: white;
+}
+.container {
+    background-image: url(./imgs/banner.png);
+    width: 90%;
+    height: 700px;
+    background-size: 100% 100%;
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+}
+.header {
+    width: 80%;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.logo{
+    padding-right: 70px;
+}
+.logo h3{
+    color: white;
+}
+.fa-thin{
+    padding-top: 18px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.chu{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+.turn{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cahai{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.bentrai img{
+    height: 70%;
+}
+.benphai p{
+    padding-top: 30px;
+    text-align: left;
+}
+.exper{
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.provide{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+.worry{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.monito{
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.benphai i{
+    color: orange;
+}
+.testimontals p{
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.testimontals h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.sanpham{
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 30px;
+    width: 90%;
+    padding-bottom: 30px;
+}
+.sanpham img{
+    width: 250px;
+    position: relative;
+}
+.anh{
+    position: absolute;
+}
+/* the end */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: #eee;
+    padding-block: 30px;
+    margin-bottom: 90px;
+    color: gray;
+}
+h3{
+    padding-bottom: 10px;
+    color: black;
+}
+.footer li{
+    padding-bottom: 5px;
+}

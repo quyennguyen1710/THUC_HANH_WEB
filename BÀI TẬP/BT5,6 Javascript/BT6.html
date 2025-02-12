@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css" />
+  <link rel="stylesheet" href="./BT6.css">
+</head>
+<body>
+  <div class="menu">
+    <ul>
+      <li class="menu_content active">
+        <a href="#">
+          <i class="icon fa-solid fa-house"></i>
+          <span class="text">HOME</span>
+        </a>
+      </li>
+      <li class="menu_content">
+        <a href="#">
+            <i class="icon fa-solid fa-image"></i>
+          <span class="text">PHOTO</span>
+        </a>
+      </li>
+      <li class="menu_content">
+        <a href="#">
+            <i class="icon fa-solid fa-film"></i>
+          <span class="text">FILM</span>
+        </a>
+      </li>
+      <li class="menu_content">
+        <a href="#">
+            <i class="icon fa-solid fa-gamepad"></i>
+          <span class="text">GAME</span>
+        </a>
+      </li>
+      <li class="menu_content">
+        <a href="#">
+          <i class="icon fa-solid fa-gear"></i>
+          <span class="text">SETTING</span>
+        </a>
+      </li>
+      <div class="idicator"></div>
+    </ul>
+  </div>
+
+  <script>
+    var list = document.querySelectorAll('.menu_content');
+    function activeLink() {
+      list.forEach((item) => item.classList.remove('active'));
+      this.classList.add('active');
+    }
+
+    list.forEach((item) => item.addEventListener('click', activeLink));
+  </script>
+</body>
+</html>

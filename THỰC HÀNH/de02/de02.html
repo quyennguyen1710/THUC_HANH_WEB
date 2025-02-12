@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Đề 02 Cuối kỳ</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Link css -->
+        <link rel="stylesheet" href="./de02.css">
+        <!-- Link javasript -->
+        <script src="./de02.js"></script>
+        <!-- Link icon -->
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css" />
+        <!-- Link font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous"
+    />
+        <!-- Link owl carosel css -->
+        <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.green.min.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container py-3 d-flex justify-content-between fs-5">
+                <div class="logo">
+                    <img src="./images/logo.webp" width="100px" alt="">
+                </div>
+                <ul class="list-unstyled d-flex justify-content-around">
+                    <li class="ps-3">
+                        <i class="fa-solid fa-phone text-white"></i>
+                        <a href="#">Phone</a>
+                    </li>
+                    <li class="ps-3">
+                        <i class="fa-solid fa-right-to-bracket text-white"></i>
+                        <a href="#">Đăng nhập</a>
+                    </li>
+                    <li class="ps-3">
+                        <i class="fa-solid fa-cart-shopping text-white"></i>
+                        <a href="#">Giỏ hàng</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- slide ảnh -->
+        <div class="slide-anh">
+            <!-- Nút trái -->
+             <a href="#"><i class="fa-solid fa-angle-left text-dark"></i></a>
+            <!-- slide ảnh -->
+             <div class="container">
+                <div class="owl-carousel review-carosle mt-5">
+                    <div class="review-item position-relative w-100">
+                        <img src="./images/slide1.webp" alt="">
+                    </div>
+                    <div class="review-item position-relative w-100">
+                        <img src="./images/slide2.webp" alt="">
+                    </div>
+                    <div class="review-item position-relative w-100">
+                        <img src="./images/slide3.webp" alt="">
+                    </div>
+                </div>
+             </div>
+             <!-- Nút phải -->
+              <a href="#"><i class="fa-solid fa-angle-right text-dark"></i></a>
+        </div>
+         
+        <!-- Header của main -->
+        <nav class="navbar container navbar-expand-lg my-4 fs-5">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold" href="#">News</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-dark fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Feature
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-dark fw-bold" href="#">Feature 1</a></li>
+                      <li><a class="dropdown-item text-dark fw-bold" href="#">Feature 2</a></li>
+                      <li><a class="dropdown-item text-dark fw-bold" href="#">Feature 3</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold" href="#">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control rounded-end-0 rounded-5" type="search" placeholder="Tìm kiếm..." aria-label="Search">
+                  <button class="btn btn-success rounded-start-0 w-50 rounded-5" type="submit">Tìm kiếm</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        
+        <!-- Giá tốt cho hôm nay -->
+        <div class="container-fluid gia-tot text-center my-5">
+            <h5 class="text-white p-2">Giá tốt cho hôm nay</h5>
+        </div>
+
+        <!-- Sản phẩm -->
+    <div class="container my-5">
+        <div class="sanpham row g-5">
+          <!-- Tủ quần áo -->
+          <div class="m-lg-3 col-md-6 col-lg-2">
+            <div class="card shadow-lg" style="width: 15rem;">
+              <img src="./images/sp1.webp" class="card-img-top rounded-top-4" alt="...">
+              <p class="discount p-1 text-white">18%</p>
+              <div class="card-body">
+                <div class="Gia-ca d-flex justify-content-between">
+                  <h5 class="card-title ">F1GENZ</h5>
+                  <a href="#" class="btn btn-tragop text-danger fw-bold rounded-4" id="btn-tragop" onclick="show_model_tu()">Trả góp</a>
+                </div>
+                <h2 class="fs-5 fw-bold">Tủ quần áo 3 ngăn</h2>       
+                <h4 class="fs-5 text-danger">32,779,000 đ</h4>   
+                <h5 class="fs-6 gia-cu text-decoration-line-through">32,779,000 đ</h5>  
+                <div class="d-flex justify-content-between">
+                  <ul class="list-unstyled d-flex">
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-regular fa-star text-warning"></i></i></li>
+                  </ul>
+                  <p>423 đánh giá</p>
+                </div>
+                <!-- react -->
+                <ul class="react list-unstyled d-none d-flex justify-content-around px-5">
+                  <li class="bg-light">
+                    <i class="fa-solid fa-cart-plus fs-2"></i>
+                  </li>
+                  <li class="bg-light"><i class="fa-regular fa-heart fs-2"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Model nổi của Tủ -->
+          <div class="container model-tu model" id="model-tu">
+            <div class="text-end">
+              <a href="#" class="btn btn-exit text-white text-center bg-danger fw-bold rounded-3 mt-1" onclick="show_model_tu()">X</a>
+            </div>
+            <h3 class="text-danger text-center">THÔNG TIN SẢN PHẨM</h3>
+            <div class="d-flex justify-content-around">
+              <img src="./images/sp1.webp" width="250px" alt="" class="mb-5">
+              <div>
+                <ul>
+                  <li><b>Tên sản phẩm:</b> Tủ quần áo 3 ngăn</li>
+                  <li><b>Đơn giá:</b> 32,779,000 đ</li>
+                  <li>Số lượng: 1</li>
+                </ul>
+                <div class="text-center">
+                  <a href="#" class="btn btn-dathang text-white fw-bold rounded-3 mt-5 text-end">Đặt hàng</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Bàn chữ V -->
+          <div class="m-lg-3 col-md-6 col-lg-2">
+            <div class="card shadow-lg" style="width: 15rem;">
+              <img src="./images/sp2.webp" class="card-img-top rounded-top-4" alt="...">
+              <p class="discount p-1 text-white">10%</p>
+              <div class="card-body">
+                <div class="Gia-ca d-flex justify-content-between">
+                  <h5 class="card-title ">F1GENZ</h5>
+                  <a href="#" class="btn btn-tragop text-danger fw-bold rounded-4" id="btn-tragop" onclick="show_model_ban()">Trả góp</a>
+                </div>
+                <h2 class="fs-5 fw-bold">Bàn chân chữ V</h2>       
+                <h4 class="fs-5 text-danger">22,779,000 đ</h4>   
+                <h5 class="fs-6 gia-cu text-decoration-line-through">24,779,000 đ</h5>  
+                <div class="d-flex justify-content-between">
+                  <ul class="list-unstyled d-flex">
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-regular fa-star text-warning"></i></li>
+                    <li><i class="fa-regular fa-star text-warning"></i></li>
+                  </ul>
+                  <p>325 đánh giá</p>
+                </div>
+                <!-- react -->
+                <ul class="react list-unstyled d-none d-flex justify-content-around px-5">
+                  <li class="bg-light">
+                    <i class="fa-solid fa-cart-plus fs-2"></i>
+                  </li>
+                  <li class="bg-light"><i class="fa-regular fa-heart fs-2"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Model nổi của bàn -->
+          <div class="container model-tu model" id="model-ban">
+            <div class="text-end">
+              <a href="#" class="btn btn-exit text-white text-center bg-danger fw-bold rounded-3 mt-1" onclick="show_model_ban()">X</a>
+            </div>
+            <h3 class="text-danger text-center">THÔNG TIN SẢN PHẨM</h3>
+            <div class="d-flex justify-content-around">
+              <img src="./images/sp2.webp" width="250px" alt="" class="mb-5">
+              <div>
+                <ul>
+                  <li><b>Tên sản phẩm:</b> Bàn chân chữ V</li>
+                  <li><b>Đơn giá:</b> 22,779,000 đ</li>
+                  <li>Số lượng: 1</li>
+                </ul>
+                <div class="text-center">
+                  <a href="#" class="btn btn-dathang text-white fw-bold rounded-3 mt-5 text-end">Đặt hàng</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Bàn ăn 40x70 -->
+          <div class="m-lg-3 col-md-6 col-lg-2">
+            <div class="card shadow-lg" style="width: 15rem;">
+              <img src="./images/sp3.webp" class="card-img-top rounded-top-4" alt="...">
+              <p class="discount p-1 text-white">12%</p>
+              <div class="card-body">
+                <div class="Gia-ca d-flex justify-content-between">
+                  <h5 class="card-title ">F1GENZ</h5>
+                  <a href="#" class="btn btn-tragop text-danger fw-bold rounded-4" id="btn-tragop" onclick="show_model_ban_an()">Trả góp</a>
+                </div>
+                <h2 class="fs-5 fw-bold">Bàn ăn 40x70</h2>       
+                <h4 class="fs-5 text-danger">20,499,000 đ</h4>   
+                <h5 class="fs-6 gia-cu text-decoration-line-through">23,223,000 đ</h5>  
+                <div class="d-flex justify-content-between">
+                  <ul class="list-unstyled d-flex">
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-regular fa-star text-warning"></i></li>
+                  </ul>
+                  <p>398 đánh giá</p>
+                </div>
+                <!-- react -->
+                <ul class="react list-unstyled d-none d-flex justify-content-around px-5">
+                  <li class="bg-light">
+                    <i class="fa-solid fa-cart-plus fs-2"></i>
+                  </li>
+                  <li class="bg-light"><i class="fa-regular fa-heart fs-2"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Model nổi của bàn ăn -->
+          <div class="container model-tu model" id="model-ban-an">
+            <div class="text-end">
+              <a href="#" class="btn btn-exit text-white text-center bg-danger fw-bold rounded-3 mt-1" onclick="show_model_ban_an()">X</a>
+            </div>
+            <h3 class="text-danger text-center">THÔNG TIN SẢN PHẨM</h3>
+            <div class="d-flex justify-content-around">
+              <img src="./images/sp3.webp" width="250px" alt="" class="mb-5">
+              <div>
+                <ul>
+                  <li><b>Tên sản phẩm:</b> Bàn ăn 40x70</li>
+                  <li><b>Đơn giá:</b> 20,499,000 đ</li>
+                  <li>Số lượng: 1</li>
+                </ul>
+                <div class="text-center">
+                  <a href="#" class="btn btn-dathang text-white fw-bold rounded-3 mt-5 text-end">Đặt hàng</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Đèn ngủ -->
+          <div class="m-lg-3 col-md-6 col-lg-2">
+            <div class="card shadow-lg" style="width: 15rem;">
+              <img src="./images/sp4.webp" class="card-img-top rounded-top-4" alt="...">
+              <p class="discount p-1 text-white">7%</p>
+              <div class="card-body">
+                <div class="Gia-ca d-flex justify-content-between">
+                  <h5 class="card-title ">F1GENZ</h5>
+                  <a href="#" class="btn btn-tragop text-danger fw-bold rounded-4" id="btn-tragop" onclick="show_model_den_ngu()">Trả góp</a>
+                </div>
+                <h2 class="fs-5 fw-bold">Đèn ngủ cao cấp</h2>       
+                <h4 class="fs-5 text-danger">9,232,000 đ</h4>   
+                <h5 class="fs-6 gia-cu text-decoration-line-through">12,332,000 đ</h5>  
+                <div class="d-flex justify-content-between">
+                  <ul class="list-unstyled d-flex">
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-regular fa-star text-warning"></i></i></li>
+                  </ul>
+                  <p>332 đánh giá</p>
+                </div>
+                <!-- react -->
+                <ul class="react list-unstyled d-none d-flex justify-content-around px-5">
+                  <li class="bg-light">
+                    <i class="fa-solid fa-cart-plus fs-2"></i>
+                  </li>
+                  <li class="bg-light"><i class="fa-regular fa-heart fs-2"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Model nổi của đèn ngủ -->
+          <div class="container model-tu model" id="model-den-ngu">
+            <div class="text-end">
+              <a href="#" class="btn btn-exit text-white text-center bg-danger fw-bold rounded-3 mt-1" onclick="show_model_den_ngu()">X</a>
+            </div>
+            <h3 class="text-danger text-center">THÔNG TIN SẢN PHẨM</h3>
+            <div class="d-flex justify-content-around">
+              <img src="./images/sp4.webp" width="250px" alt="" class="mb-5">
+              <div>
+                <ul>
+                  <li><b>Tên sản phẩm:</b> Đèn ngủ cao cấp</li>
+                  <li><b>Đơn giá:</b> 9,232,000 đ</li>
+                  <li>Số lượng: 1</li>
+                </ul>
+                <div class="text-center">
+                  <a href="#" class="btn btn-dathang text-white fw-bold rounded-3 mt-5 text-end">Đặt hàng</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Bàn học -->
+          <div class="m-lg-3 col-md-6 col-lg-2">
+            <div class="card shadow-lg" style="width: 15rem;">
+              <img src="./images/sp5.webp" class="card-img-top rounded-top-4" alt="...">
+              <p class="discount p-1 text-white">22%</p>
+              <div class="card-body">
+                <div class="Gia-ca d-flex justify-content-between">
+                  <h5 class="card-title ">F1GENZ</h5>
+                  <a href="#" class="btn btn-tragop text-danger fw-bold rounded-4" id="btn-tragop" onclick="show_model_ban_hoc()">Trả góp</a>
+                </div>
+                <h2 class="fs-5 fw-bold">Bàn học gỗ cao cấp</h2>       
+                <h4 class="fs-5 text-danger">9,222,000 đ</h4>   
+                <h5 class="fs-6 gia-cu text-decoration-line-through">12,343,000 đ</h5>  
+                <div class="d-flex justify-content-between">
+                  <ul class="list-unstyled d-flex">
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-solid fa-star text-warning"></i></li>
+                    <li><i class="fa-regular fa-star text-warning"></i></i></li>
+                  </ul>
+                  <p>654 đánh giá</p>
+                </div>
+                <!-- react -->
+                <ul class="react list-unstyled d-none d-flex justify-content-around px-5">
+                  <li class="bg-light">
+                    <i class="fa-solid fa-cart-plus fs-2"></i>
+                  </li>
+                  <li class="bg-light"><i class="fa-regular fa-heart fs-2"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Model nổi của bàn học -->
+          <div class="container model-tu model" id="model-ban-hoc">
+            <div class="text-end">
+              <a href="#" class="btn btn-exit text-white text-center bg-danger fw-bold rounded-3 mt-1" onclick="show_model_ban_hoc()">X</a>
+            </div>
+            <h3 class="text-danger text-center">THÔNG TIN SẢN PHẨM</h3>
+            <div class="d-flex justify-content-around">
+              <img src="./images/sp4.webp" width="250px" alt="" class="mb-5">
+              <div>
+                <ul>
+                  <li><b>Tên sản phẩm:</b> Bàn học gỗ cao cấp</li>
+                  <li><b>Đơn giá:</b> 9,222,000 đ</li>
+                  <li>Số lượng: 1</li>
+                </ul>
+                <div class="text-center">
+                  <a href="#" class="btn btn-dathang text-white fw-bold rounded-3 mt-5 text-end">Đặt hàng</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+        
+          <footer class="container-fluid bg-black">
+            <div class="container bg-black py-5">
+              <div class="row">
+                <div class="col-lg-5">
+                  <h5 class="ft-color">CONTACT</h5>
+                  <ul class="list-unstyled text-white">
+                    <li>Email: <a href="#" class="text-white">quyen.nh.64cntt@ntu.edu.vn</a></li>
+                    <li>Phone: <a href="#" class="text-white">0333979996</a></li>
+                    <li>Address: <a href="#" class="text-white">Diên Khánh</a></li>
+                  </ul>
+                </div>
+      
+                <div class="col-lg-7">
+                  <div class="row">
+                    <!-- RESOURCES -->
+                    <div class="col-lg-3">
+                      <h5 class="ft-color">RESOURCES</h5>
+                      <ul class="list-unstyled text-white">
+                        <li><a href="#" class="text-white">Follow us</a></li>
+                        <li><a href="#" class="text-white">Privacy Policy</a></li>
+                      </ul>
+                  </div>
+                  <!-- FOLLOW US -->
+                  <div class="col-lg-3">
+                    <h5 class="ft-color">FOLLOW US</h5>
+                    <ul class="list-unstyled text-white">
+                      <li><a href="https://github.com/quyennguyen1710" class="text-white">Github</a></li>
+                      <li><a href="#" class="text-white">Discord</a></li>
+                    </ul>
+                  </div>
+                  <!-- LEGAL -->
+                  <div class="col-lg-4">
+                    <h5 class="ft-color">LEGAL</h5>
+                    <ul class="list-unstyled text-white">
+                      <li><a href="#" class="text-white">Privacy Policy</a></li>
+                      <li><a href="#" class="text-white">Term & Conditions</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-2 ">
+                    <div class="">
+                      <a href="#" class="btn btn-arrow btn-outline-light m-auto ">
+                        <i class="fa-solid fa-chevron-up"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+
+            <!-- Bootstrap JavaScript Libraries -->
+            <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+
+
+                <!-- Link carosel js -->
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+            <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+            <!-- Code Owl carousel -->
+            <script>
+            $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                autoplay: true,
+                smartSpeed: 500,
+                loop: true,
+                margin: 25,
+                center: true,
+                dots:false,
+                nav: false,
+                navText:[
+                '<i class="fa-solid fa-chevron-left"></i>',
+                '<i class="fa-solid fa-chevron-right"></i>'
+                ],
+                responsive:{
+                0:{items:1},
+                768:{items:2},
+                992:{items:3}
+                }
+            })
+            })
+            </script>
+    </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <h1 class="logo">Music Player</h1>
+    <div id="body">
+      <div class="music-container" id="music-container">
+        <div class="music-info">
+          <h4 id="title"></h4>
+          <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+          </div>
+        </div>
+        
+        <audio src="" id="audio"></audio>
+
+        <div class="img-container">
+          <img src="" alt="music-cover" id="cover" />
+        </div>
+        <div class="navigation">
+          <button id="prev" class="action-btn">
+            <i class="fas fa-backward"></i>
+          </button>
+          <button id="play" class="action-btn action-btn-big">
+            <i class="fas fa-play"></i>
+          </button>
+          <button id="next" class="action-btn">
+            <i class="fas fa-forward"></i>
+          </button>
+        </div>
+      </div>
+      <div class="list-music">
+        <h2>My List Music</h2>
+        <ul>
+          <li>
+            <i class="fa-solid fa-play"></i>
+            <p id="tennhac" onclick="tennhac('Em Là Nhất')">Em Là Nhất</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-play"></i>
+            <p id="tennhac" onclick="tennhac('Hồng Nhan')">Hồng Nhan</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-play"></i>
+            <p id="tennhac" onclick="tennhac('Vì Anh Là Gió')">Vì Anh Là Gió</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-play"></i>
+            <p id="tennhac" onclick="tennhac('Yêu Đơn Phương Là Gì')">Yêu Đơn Phương Là Gì</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-play"></i>
+            <p id="tennhac" onclick="tennhac('Chỉ Muốn Đến Em Thật Gần')">Chỉ Muốn Đến Em Thật Gần</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-play"></i>
+            <p id="tennhac" onclick="tennhac('Đám Cưới Nha')">Đám Cưới Nha</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <div class="name">
+        <div class="copyright">
+          <i class="fa-solid fa-school"></i>
+          <h4><a href="https://ntu.edu.vn/">Nha Trang University</a></h4>
+        </div>
+        <div class="copyright">
+          <i class="fa-regular fa-copyright"></i>
+          <h4><a href="https://www.facebook.com/hieuquyen.2004">Nguyễn Hiểu Quyên</a></h4>
+        </div>
+        <div class="copyright">
+          <i class="fa-solid fa-id-card"></i> 
+          <h4>64131973</h4>
+        </div>
+        <div class="copyright">
+          <i class="fa-solid fa-graduation-cap"></i>  
+          <h4>Lớp 64.CNTT-4</h4>
+        </div>
+        <div class="copyright">
+          <i class="fa-brands fa-github"></i>
+          <h4><a href="https://github.com/quyennguyen1710">My Github</a></h4>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

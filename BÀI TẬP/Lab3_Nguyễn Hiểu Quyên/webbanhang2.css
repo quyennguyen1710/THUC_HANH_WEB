@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.shop{
+    border-bottom: 1px solid black;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.menu li{
+    padding-inline: 15px;
+}
+.fa-thin{
+    transform: rotateY(180deg);
+    padding-top: 20px;
+}
+.Cart{
+    padding-top: 10px;
+    display: flex;
+}
+.Cart img{
+    width: 30px;
+    height: 30px;
+}
+.Cart p{
+    padding-top: 10px;
+}
+.product{
+    text-align: left;
+    width: 90%;
+}
+.dong1{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+.dong2{
+    font-size: 11px;
+    padding-bottom: 50px;
+    font-family: "Quicksand", sans-serif;
+}
+.Price-Filter{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+input[type="range"]{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    appearance: none;
+}
+.trontrai{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 34%;
+}
+.tron{
+    position: relative;
+}
+.tronphai{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 34%;
+    right: 0;
+}
+.chu{
+    font-size: 15px;
+    font-family: "Quicksand", sans-serif;
+    padding-bottom: 70px;
+}
+.bentrai{
+    padding-bottom: 50px;
+    text-align: left;
+    font-family: "Encode Sans Expanded", sans-serif;
+}
+.view{
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.from{
+    font-family: "Quicksand", sans-serif;
+}
+.price{
+    font-family: "Quicksand", sans-serif;
+}
+.chu_hinh30{
+    display: flex;
+}
+.hinh30{
+    width: 100px;
+}
+.chu_30{
+    padding-top: 50px;
+    padding-inline: 10px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+}
+.cahai{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.chu2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+.Sort{
+    padding: 10px;
+    font-family: "Quicksand", sans-serif;
+}
+.sanpham{
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 30px;
+}
+.sanpham img{
+    width: 250px;
+}
+.sanpham h4{
+    text-align: center;
+    font-family: "Encode Sans Expanded", sans-serif;
+    padding-top: 10px;
+}
+.sanpham p{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    padding-bottom: 20px;
+}
+.muiten{
+    color: gray;
+    border-bottom: 0px solid gray;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+.sovamuiten{
+    font-family: "Quicksand", sans-serif;
+}
+/* the end */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: #eee;
+    text-align: left;
+    padding-block: 30px;
+    margin-bottom: 90px;
+    color: gray;
+    font-family: "Quicksand", sans-serif;
+}
+h3{
+    padding-bottom: 10px;
+    color: black;
+}
+.footer li{
+    padding-bottom: 5px;
+}

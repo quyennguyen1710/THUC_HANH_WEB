@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+html{
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+}
+.header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.header a{
+    color: #000;
+}
+.header-right{
+    text-align: right;
+}
+.search-item{
+    background-color: #eee;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0px 15px;
+    margin-left: 100px;
+}
+.search-item input{
+    border: none;
+    background-color: transparent;
+    width: 95%;
+    font-size: 15px;
+}
+.search-item i{
+    color: #000;
+    font-size: 18px;
+}
+.menu-header li{
+    list-style-type: none;
+    display: inline-block;
+    line-height: 40px;
+    padding-left: 7px;
+    font-size: 14px;
+}
+#item-active{
+    color: blue;
+}
+.container-menu {
+    display: flex;
+    background-color: black;
+}
+.container-menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    list-style: none;
+}
+.muiten{
+    color: black; 
+}
+.thanhmenu{
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 400px;
+    background-color: black;
+    color: white;
+  }
+  
+  .thanhmenu li a{
+    color: white;
+  }
+  
+  .dacap li a{
+    color: black;
+    padding: 15px;
+  }
+  .dacap li{
+    padding: 2px;
+    border-bottom: 1px solid black;
+  }
+  
+  .thanhmenu li{
+    position: relative;
+  }
+  
+  /* Menu da cap */
+  .thanhmenu li ul{
+    box-shadow: 1px 1px 10px black;
+    width: 180px;
+    height: fit-content;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    display: none;
+  }
+  
+  .thanhmenu li:hover ul{
+    display: block;
+  }
+  
+  .Giangvien{
+    border-left: 2px solid blue;
+    padding-left: 10px;
+  }
+  .omuiten {
+   color: white; 
+  }
+  .menu-header li{
+    color: black;
+  }
+  .vien{
+    border-top: 5px solid darkgreen;
+  }

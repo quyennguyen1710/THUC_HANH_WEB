@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo3 {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.fa-solid{
+    transform: rotateY(180deg);
+}
+.home {
+    border-bottom: 1px solid black;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu li {
+    padding-inline: 20px;
+}
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

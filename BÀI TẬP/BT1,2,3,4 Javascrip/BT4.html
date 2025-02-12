@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide images</title>
+    <style type="text/css">
+        .slider{
+            width: 90%;
+            height: 400px;
+            margin: 0 auto;
+        }
+        .slider img{
+            width: 100%;
+            height: 400px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <img src="./slide anh BT4/anh_1.jpg" alt="anh 1">
+        <img src="./slide anh BT4/anh_2.png" alt="anh 2">
+        <img src="./slide anh BT4/anh_3.png" alt="anh 3">
+        <img src="./slide anh BT4/anh_4.jpg" alt="anh 4">
+        <img src="./slide anh BT4/anh_5.jpg" alt="anh 5">
+    </div>
+    <!--thiet code js cu khoang 4s se xh hinh-->
+    <script type="text/javascript">
+        let slideIndex=0;
+        showSlides();
+        function showSlides(){
+            let slides=document.querySelectorAll('.slider img');
+            for(let i=0; i<slides.length; i++)
+                slides[i].style.display="none";
+            slideIndex++;
+            // slideIndex=slideIndex+1;
+            if(slideIndex > slides.length)
+                slideIndex = 1;
+            // hien thi hinh anh
+            slides[slideIndex-1].style.display = "block";
+            // cu sau 4s thi hien thi
+            setTimeout(showSlides,4000);
+        }
+    </script>
+</body>
+</html>

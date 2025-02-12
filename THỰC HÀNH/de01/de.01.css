@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(30,41,59,255);
+}
+
+/* 3 thanh ngang */
+.navbar-toggler{
+    background-color: white !important;
+}
+
+/* Chọn vào đối tượng sẽ đổi màu */
+.nav-item a:focus{
+    color: red !important;
+}
+
+.nav-item a:hover{
+    color: red !important;
+}
+
+/* Chỉnh ô tìm kiếm */
+.form-control,
+.btn-search{
+    height: 30px !important;
+}
+
+.btn-search{
+    width: 130px !important;
+}
+
+/* Chỉnh carosel */
+.Carousel{
+    position: relative !important;
+}
+  
+.fa-chevron-right{
+    position: absolute !important;
+    right: 5% !important;
+    top: 50% !important;
+    font-size: 30px;
+    z-index: 1 !important;
+}
+  
+.fa-chevron-left{
+    position: absolute !important;
+    left: 5% !important;
+    top: 50% !important;
+    font-size: 30px;
+    z-index: 2 !important;
+}
+/* Thông tin khóa học */
+.Thong-tin{
+    background-color: rgba(249,111,117,255);
+    width: fit-content;
+    height: 40px;
+    margin: auto;
+    border-radius: 10px !important;
+}
+
+.card-img-top{
+    width: 100px !important;
+}
+  
+.free{
+    background-color: rgba(203,213,225,255) !important;
+}
+  
+.lite{
+    background-color: rgba(147,51,234,255) !important;
+}
+  
+.pro{
+    background-color: rgba(234,88,12,255) !important;
+}
+  
+.promax{
+    background-color: rgba(220,38,38,255) !important;
+}
+  
+.card{
+    background-color: rgba(226,232,240,255) !important;
+}
+  
+.khoa-hoc{
+    position: relative;
+}
+  
+  /* Hover free*/
+.model-free{
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    display: none !important;
+}
+  
+.card-free:hover .model-free{
+    cursor: pointer !important;;
+    display: block !important;
+}
+  
+  /* Hover lite */
+.model-lite{
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    display: none !important;
+}
+  
+.card-lite:hover .model-lite{
+    cursor: pointer !important;;
+    display: block !important;
+}
+  
+  /* Hover pro */
+.model-pro{
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    display: none !important;
+}
+  
+.card-pro:hover .model-pro{
+    cursor: pointer !important;;
+    display: block !important;
+}
+  
+  /* Hover promax */
+.model-promax{
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    display: none !important;
+}
+  
+.card-promax:hover .model-promax{
+    cursor: pointer !important;;
+    display: block !important;
+}
+  
+  /* footer */
+.ft-color{
+    color: rgb(160, 158, 158) !important;
+}
+  
+.fa-chevron-up{
+    font-size: 30px !important;
+}
+  
+.btn-arrow{
+    width: 50px !important;
+    height: 50px !important;
+    display: flex !important;
+    justify-content: center!important;
+    align-items: center !important;
+    border-radius: 50% !important;
+}
+  
